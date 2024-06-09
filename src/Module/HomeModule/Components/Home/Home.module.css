@@ -1,0 +1,64 @@
+.sidebar {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.cardSection {
+  height: 100vh;
+}
+
+.cardContainer {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background-color 0.3s ease;
+  border: none;
+}
+
+.cardContainer:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f4f4f4;
+  border: 1px solid #ced4da;
+}
+.cardMargin {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cardImage {
+  height: 150px;
+  object-fit: contain;
+}
+
+.cardTitle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 5px;
+}
+
+.cardCategory {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 5px;
+  font-size: medium;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.cardDescription {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.priceText {
+  font-size: 20px;
+}
+
+.priceValue {
+  font-size: 24px;
+  font-weight: 600;
+}

@@ -1,0 +1,34 @@
+.container {
+  margin-top: 2rem;
+}
+
+.imageContainer {
+  overflow: hidden;
+}
+
+.image {
+  transition: transform 0.5s ease;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
+
+.price {
+  text-align: center;
+}
+
+.priceValue {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.category {
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
