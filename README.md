@@ -17,14 +17,14 @@ Follow these steps to get Ecommerce Demo up and running on your local machine:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/ecommerce-demo.git
+   git clone https://github.com/yourusername/ecomm_demo.git
 
    ```
 
 2. Navigate into the project directory:
 
    ```bash
-   cd ecommerce-demo
+   cd ecomm_demo
    ```
 
 3. Install dependencies:
