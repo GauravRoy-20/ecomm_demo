@@ -17,8 +17,7 @@ Follow these steps to get Ecommerce Demo up and running on your local machine:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/ecomm_demo.git
-
+   git clone https://github.com/GauravRoy-20/ecomm_demo.git
    ```
 
 2. Navigate into the project directory:
@@ -44,8 +43,8 @@ Follow these steps to get Ecommerce Demo up and running on your local machine:
    ```bash
    npm start
    ```
-6. Open your browser and navigate to `http://localhost:3000` to view the app.
 
+6. Open your browser and navigate to `http://localhost:3000` to view the app.
 
 ## Usage
 
